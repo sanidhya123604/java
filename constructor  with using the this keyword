@@ -1,0 +1,23 @@
+// constructor
+public class car1 {
+	int speed;           // instance variable
+	String carColor;
+	car1(int speed, String carColor)    // constructor define ans also using this word
+	{                                    
+		this.speed=speed;
+		this.carColor= carColor;
+	}
+	void display()
+	{
+		System.out.println("speed of car:"+speed);
+		System.out.println("color of car:"+carColor);
+	}
+	public static void main(String [] args)
+	{
+	car1 c1 = new car1(123,"blue");     // oject create for constructor and automaticlly calling of the fuction 
+	System.out.println(c1.speed);
+	System.out.println(c1.carColor);
+     
+	c1.display();
+	}
+}
