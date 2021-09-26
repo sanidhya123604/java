@@ -1,0 +1,22 @@
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+	    Scanner sc = new Scanner(System.in);
+	    System.out.print("enter the value of num:");
+	    int num1  = sc.nextInt();
+	    //System.out.print("enter the value of num2");
+	    //int num2 = sc.nextInt();
+	    switch(num1) {
+	        case 1 : {
+	            System.out.println("one");
+	            break;
+	        }
+	        case 2 : {
+	            System.out.prinln("");
+	        }
+	                
+	    }
+		
+	}
+}
