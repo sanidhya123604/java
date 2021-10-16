@@ -1,0 +1,23 @@
+// program of constructor 
+public class Main
+{
+    int roll;
+    String name;
+    Main(int x, String y)
+    {
+        roll = x;
+        name = y;
+    }
+    void displayData()
+    {
+        System.out.println("roll=" +roll);
+        System.out.println("name=" +name);
+    }
+    
+	public static void main(String[] args) {
+		Main s1 = new Main(100,"sourav");
+		Main s2 = new Main(101,"sakshi");
+		s1.displayData();
+		s2.displayData();
+	}
+}
