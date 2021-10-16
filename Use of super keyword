@@ -1,0 +1,22 @@
+// constructor not inherited but its is inherited through the super () keyword;
+class Shape
+{
+   public Shape()
+    {
+        System.out.println("display the shape");
+    }
+}
+
+public class Main extends Shape
+{
+    public Main()
+    {
+        System.out.println("display the squre");
+        
+    }
+	public static void main(String[] args) {
+	    Main s = new Main();
+		
+		
+	}
+}
