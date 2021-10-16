@@ -1,0 +1,18 @@
+// use of this keyword
+public class Main
+{
+    Main()
+    {
+        System.out.println("hello a");
+        
+    }  
+    Main(int x)
+    {  
+        this();  
+        System.out.println(x);  
+        
+    }  
+	public static void main(String[] args) {
+		Main s = new Main(10);
+	}
+}
