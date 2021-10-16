@@ -1,0 +1,23 @@
+// program of inheritence
+class Shape
+{
+   public void display()
+    {
+        System.out.println("display the shape");
+    }
+}
+
+public class Main extends Shape
+{
+    static void square()
+    {
+        System.out.println("display the squre");
+        
+    }
+	public static void main(String[] args) {
+		Main s = new Main(); 
+		s.display();
+		square();
+		
+	}
+}
