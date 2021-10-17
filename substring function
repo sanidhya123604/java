@@ -1,0 +1,14 @@
+// use of substring fuction in string
+import java.util.*;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String s = sc.nextLine();
+		int begIndex = sc.nextInt();
+		int endIndex = sc.nextInt();
+		
+		String result = s.substring(begIndex,endIndex);
+		System.out.println(result);
+	}
+}
